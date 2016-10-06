@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8692"
+   name=""
+   committed-date="2010-05-10T16:16:45.150631Z"
+   url="http://www.mpa-garching.mpg.de/svn/cosmo-group/P-Gadget3/Python/libs"
+   last-author="rpakmor"
+   kind="dir"
+   uuid="019ef673-9300-0410-806d-f16013bd1951"
+   revision="9335"/>
+<entry
+   committed-rev="8692"
+   name="setup.py"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2010-05-10T16:16:45.150631Z"
+   checksum="0825c437145161a31307635378b1e0d3"
+   last-author="rpakmor"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="8692"
+   name="calcGrid.c"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2010-05-10T16:16:45.150631Z"
+   checksum="f5a414231b1b361941d84544d4de10b1"
+   last-author="rpakmor"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+</wc-entries>

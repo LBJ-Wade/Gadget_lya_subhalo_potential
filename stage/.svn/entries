@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4587"
+   name=""
+   committed-date="2008-04-22T08:41:19.364536Z"
+   url="http://www.mpa-garching.mpg.de/svn/cosmo-group/P-Gadget3/stage"
+   last-author="volker"
+   kind="dir"
+   uuid="019ef673-9300-0410-806d-f16013bd1951"
+   revision="9335"/>
+<entry
+   committed-rev="4585"
+   name="read_parameters.c"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2008-04-21T21:04:12.133748Z"
+   checksum="2238404fe73e158eef4d6dbb991d9ce0"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="4585"
+   name="allvars.c"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2008-04-21T21:04:12.133748Z"
+   checksum="843ef705f9f40debdd3ee93de59c81ea"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="4585"
+   name="proto.h"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2008-04-21T21:04:12.133748Z"
+   checksum="284d25a0f962c928d58d1d03eadc8618"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="4585"
+   name="allvars.h"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2008-04-21T21:04:12.133748Z"
+   checksum="5cf803833284a551d57b6b2851df4cac"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="4587"
+   name="Makefile"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2008-04-22T08:41:19.364536Z"
+   checksum="db9b8b010d501b23b01b33461fc4a875"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="4585"
+   name="mymalloc.c"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2008-04-21T21:04:12.133748Z"
+   checksum="811ec4eecee554660405e61d6b6c253c"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="4587"
+   name="param.txt"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2008-04-22T08:41:19.364536Z"
+   checksum="3899062affe907bf0bd0069778398d60"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="4587"
+   name="subfind_stage.c"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2008-04-22T08:41:19.364536Z"
+   checksum="856d29af7f19bac9cadeb7eaea2e430c"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+</wc-entries>

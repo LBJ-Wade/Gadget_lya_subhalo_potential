@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6235"
+   name=""
+   committed-date="2009-07-15T20:43:50.411575Z"
+   url="http://www.mpa-garching.mpg.de/svn/cosmo-group/P-Gadget3/IdlSubfind"
+   last-author="volker"
+   kind="dir"
+   uuid="019ef673-9300-0410-806d-f16013bd1951"
+   revision="9335"/>
+<entry
+   committed-rev="4588"
+   name="ReadSubhaloTab.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2008-04-22T09:22:25.488892Z"
+   checksum="060d123ce4c3bb51c7eb832dc2b49ba9"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="4009"
+   name="CompGalaxyProperties.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2007-09-01T18:13:58.272043Z"
+   checksum="e98abd72c80ac9cf216e4793583898ea"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="4009"
+   name="ReadSubHaloPosVel.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2007-09-01T18:13:58.272043Z"
+   checksum="298db56518ee7febfd614e6556033eb2"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="4702"
+   name="ReadSubhaloFromReshuffledSnapshot.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2008-05-13T13:39:43.897822Z"
+   checksum="3e5ee58a979d4044773d7218c4bf9c18"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="5299"
+   name="ReadIDsOfSelectedGroup.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2008-09-11T10:10:36.642966Z"
+   checksum="c7f6ca4cd6361c41c5b537fa6c0def3a"
+   last-author="snhess"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="6235"
+   name="ReadDataOfSubhalo.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2009-07-15T20:43:50.411575Z"
+   checksum="14dbcf2ba60e09c594f4b6d643c36f7b"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="5299"
+   name="ReadGroupIDs.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2008-09-11T10:10:36.642966Z"
+   checksum="47428a86f6a256c442902216f16877e0"
+   last-author="snhess"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="3449"
+   name="ReadHsmlData.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2007-01-07T19:03:19.532624Z"
+   checksum="e76655bde8b7816a514d9cadc7731b33"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="3446"
+   name="ReadSubhaloIDs.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2007-01-06T16:34:23.317951Z"
+   checksum="dc27b3cf3e563079bc34be5cf5b06e3a"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="4277"
+   name="PlotGroupAndSubhalos.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2008-01-08T11:04:41.535566Z"
+   checksum="a306e298acca77c5792bdf2b62e1be5d"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="5299"
+   name="ReadGroupTab.pro"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2008-09-11T10:10:36.642966Z"
+   checksum="7ac2fc053d1a2064323297ff6c232375"
+   last-author="snhess"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+</wc-entries>

@@ -1,0 +1,41 @@
+--- fof.c.old        2010-09-21 10:42:38.000000000 -0400
++++ fof.c        2010-09-21 10:45:52.000000000 -0400
+@@ -1575,7 +1575,8 @@
+ 
+ void fof_find_nearest_dmparticle(void)
+ {
+-  int i, j, n, ntot, dummy;
++  int i, j, n, dummy;
++  long long ntot;
+   int ndone, ndone_flag, ngrp, sendTask, recvTask, place, nexport, nimport, npleft, iter;
+ 
+   if(ThisTask == 0)
+@@ -1613,6 +1614,12 @@
+ 
+   iter = 0;
+   /* we will repeat the whole thing for those particles where we didn't find enough neighbours */
++  if(ThisTask == 0)
++    {
++      printf("fof-nearest iteration started\n");
++      fflush(stdout);
++    }
++
+   do
+     {
+       i = 0;                        /* beginn with this index */
+@@ -1788,13 +1795,13 @@
+             }
+         }
+ 
+-      MPI_Allreduce(&npleft, &ntot, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
++      sumup_large_ints(1, &npleft, &ntot);
+       if(ntot > 0)
+         {
+           iter++;
+           if(iter > 0 && ThisTask == 0)
+             {
+-              printf("fof-nearest iteration %d: need to repeat for %d particles.\n", iter, ntot);
++              printf("fof-nearest iteration %d: need to repeat for %010ld particles.\n", iter, ntot);
+               fflush(stdout);
+             }
+

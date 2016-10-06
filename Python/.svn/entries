@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="9003"
+   name=""
+   committed-date="2010-06-11T20:04:18.692442Z"
+   url="http://www.mpa-garching.mpg.de/svn/cosmo-group/P-Gadget3/Python"
+   last-author="vogelsma"
+   kind="dir"
+   uuid="019ef673-9300-0410-806d-f16013bd1951"
+   revision="9335"/>
+<entry
+   committed-rev="8692"
+   name="gadget.py"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2010-05-10T16:16:45.150631Z"
+   checksum="889b0267ec1e7e7d7b9d57ec1b3e2299"
+   last-author="rpakmor"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="8578"
+   name="readsubf.py"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2010-04-26T12:53:56.375921Z"
+   checksum="41c4b9a0ce2ad39d47a49d225a7ad09f"
+   last-author="puchwein"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="8692"
+   name="utilities.py"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2010-05-10T16:16:45.150631Z"
+   checksum="f94dd4aee9514ac97f634e2248904d42"
+   last-author="rpakmor"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="8692"
+   name="gadget_snap.py"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2010-05-10T16:16:45.150631Z"
+   checksum="4cd5e153a5cc1a2a76e77cd244e64307"
+   last-author="rpakmor"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   committed-rev="9003"
+   name="readsnap.py"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2010-06-11T20:04:18.692442Z"
+   checksum="65c8b51f743e6fa01e8a396c7414ece8"
+   last-author="vogelsma"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+<entry
+   name="libs"
+   kind="dir"/>
+<entry
+   committed-rev="8692"
+   name="const.py"
+   text-time="2010-07-06T16:30:24.000000Z"
+   committed-date="2010-05-10T16:16:45.150631Z"
+   checksum="c9cca3e0350b0e2a547b25ba858c50c7"
+   last-author="rpakmor"
+   kind="file"
+   prop-time="2010-07-06T16:30:24.000000Z"/>
+</wc-entries>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="7776"
+   name=""
+   committed-date="2010-02-25T13:12:10.228243Z"
+   url="http://www.mpa-garching.mpg.de/svn/cosmo-group/P-Gadget3/Perl"
+   last-author="wadepuhl"
+   kind="dir"
+   uuid="019ef673-9300-0410-806d-f16013bd1951"
+   revision="9335"/>
+<entry
+   committed-rev="7776"
+   name="cpu2idl.perl"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2010-02-25T13:12:10.228243Z"
+   checksum="e5f1b2b0eaa1a83e458744aaa9e37e07"
+   last-author="wadepuhl"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+<entry
+   committed-rev="3901"
+   name="cpu_analyze_benchmark.perl"
+   text-time="2010-07-06T16:30:23.000000Z"
+   committed-date="2007-07-25T13:06:53.252913Z"
+   checksum="0a0dd4bac179eeee714f3e47550dc702"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:23.000000Z"/>
+</wc-entries>

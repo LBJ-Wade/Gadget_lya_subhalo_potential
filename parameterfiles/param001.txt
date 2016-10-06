@@ -1,0 +1,190 @@
+%  Relevant files
+
+InitCondFile  	   /junk 
+OutputDir          /scratch1/scratchdirs/nkhandai/lya/40Mpc/quicklya/std.res/ca/512/001
+
+
+EnergyFile         energy.txt
+InfoFile           info.txt
+TimingsFile        timings.txt
+CpuFile            cpu.txt
+
+RestartFile        restart
+SnapshotFileBase   snapshot
+
+
+
+OutputListFilename outputs.txt
+
+% CPU time -limit
+	
+TimeLimitCPU      86400  % =24 hours
+ResubmitOn        0
+ResubmitCommand   my-scriptfile  
+
+
+% Code options
+
+
+ICFormat                 1
+SnapFormat               1
+ComovingIntegrationOn    1
+
+TypeOfTimestepCriterion  0
+OutputListOn             1 
+PeriodicBoundariesOn     1
+
+%  Characteristics of run
+
+TimeBegin           0.00625   
+TimeMax	            0.36363636
+
+Omega0	              0.275
+OmegaLambda           0.725
+OmegaBaryon           0.046
+HubbleParam           0.702
+BoxSize               40000.0
+
+CoolingOn             1
+StarformationOn       1
+
+% Output frequency
+
+TimeBetSnapshot        0
+TimeOfFirstSnapshot    0
+
+CpuTimeBetRestartFile   21600.0   %; 6hrs here in seconds
+TimeBetStatistics         0.1
+
+NumFilesPerSnapshot	  64
+NumFilesWrittenInParallel 64
+
+
+% Accuracy of time integration
+
+ErrTolIntAccuracy      0.02 
+
+MaxRMSDisplacementFac  0.2
+
+CourantFac             0.15     
+
+MaxSizeTimestep       0.01
+MinSizeTimestep       0.0
+
+
+
+
+
+
+
+% Tree algorithm, force accuracy, domain update frequency
+
+ErrTolTheta            0.5            
+TypeOfOpeningCriterion 1    
+ErrTolForceAcc         0.005
+
+
+TreeDomainUpdateFrequency    0.025  
+
+
+%  Further parameters of SPH
+
+DesNumNgb              33
+MaxNumNgbDeviation     2
+ArtBulkViscConst       0.75
+InitGasTemp            580.0        % always ignored if set to 0 
+MinGasTemp             5.0    
+
+
+% Memory allocation
+
+PartAllocFactor       1.8
+BufferSize            70          % in MByte
+MaxMemSize            3500        % per MPI task, in MB
+
+
+% System of units
+
+ 
+UnitLength_in_cm         3.085678e21        ;  1.0 kpc
+UnitMass_in_g            1.989e43           ;  1.0e10 solar masses
+UnitVelocity_in_cm_per_s 1e5                ;  1 km/sec
+GravityConstantInternal  0
+
+
+
+% Softening lengths
+
+MinGasHsmlFractional 0.0
+
+SofteningGas       2.5
+SofteningHalo      2.5
+SofteningDisk      0
+SofteningBulge     0           
+SofteningStars     2.5
+SofteningBndry     0.0             %This is BH
+
+SofteningGasMaxPhys       2.5
+SofteningHaloMaxPhys      2.5
+SofteningDiskMaxPhys      0
+SofteningBulgeMaxPhys     0           
+SofteningStarsMaxPhys     2.5
+SofteningBndryMaxPhys     0.0      %This is BH
+
+
+%----------------------BH Stuff-------------------------
+%BlackHoleFeedbackFactor    0.05
+%SeedBlackHoleMass          5.0e-5
+%BlackHoleAccretionFactor   100.0
+%BlackHoleNgbFactor         2.0
+%BlackHoleEddingtonFactor   3.0
+
+%MinFoFMassForNewSeed       5.0
+%TimeBetBlackHoleSearch     1.05
+%BlackHoleMaxAccretionRadius 30 % need to ask Volker about this
+
+%----------------------BH Stuff-------------------------
+
+%massDMpart    0.0277549
+
+
+CritPhysDensity     0       %  critical physical density for star formation in
+
+                            %  hydrogen number density in cm^(-3)
+
+MaxSfrTimescale     1.5     % in internal time units
+
+
+CritOverDensity      57.7    %  overdensity threshold value
+
+TempSupernova        1.0e8   %  in Kelvin
+
+TempClouds           1000.0   %  in Kelvin
+FactorSN             0.1
+FactorEVP            1000.0
+
+WindEfficiency                     2.0
+WindEnergyFraction                 1.0
+
+WindFreeTravelLength               20
+WindFreeTravelDensFac              0.1
+FactorForSofterEQS                 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

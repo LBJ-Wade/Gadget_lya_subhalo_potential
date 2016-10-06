@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1296"
+   name=""
+   committed-date="2004-09-03T13:00:16.000000Z"
+   url="http://www.mpa-garching.mpg.de/svn/cosmo-group/P-Gadget3/IdlGroupLib"
+   last-author="deboras"
+   kind="dir"
+   uuid="019ef673-9300-0410-806d-f16013bd1951"
+   revision="9335"/>
+<entry
+   committed-rev="1296"
+   name="export.txt"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2004-09-03T13:00:16.000000Z"
+   checksum="a5259feccf5cd8ba8514783a83d54010"
+   last-author="deboras"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="786"
+   name="Doxyfile"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2003-12-18T11:05:03.000000Z"
+   checksum="d5645aecfaac73c6467de63098758aee"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="1296"
+   name="groupstuff.c"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2004-09-03T13:00:16.000000Z"
+   checksum="17fd1602453a303b9d19fdee7d65dcf6"
+   last-author="deboras"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="1296"
+   name="show_bhgroup.pro"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2004-09-03T13:00:16.000000Z"
+   checksum="db617c397cab3340baee55ea45f88b86"
+   last-author="deboras"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="1296"
+   name="groupstuff.h"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2004-09-03T13:00:16.000000Z"
+   checksum="4a3ede924f31647726b35014ad29aea9"
+   last-author="deboras"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="1296"
+   name="show_group.pro"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2004-09-03T13:00:16.000000Z"
+   checksum="fa39390086faa72fb5648debe90e4b36"
+   last-author="deboras"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="789"
+   name="Makefile"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2003-12-19T09:36:04.000000Z"
+   checksum="93cf086c43712b67bcd178bd3a884f80"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="1127"
+   name="show_massfunc.pro"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2004-05-08T13:16:16.000000Z"
+   checksum="6378faa4f154db9f9d9f6587dae3b088"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+</wc-entries>

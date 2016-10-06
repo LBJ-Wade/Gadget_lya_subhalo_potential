@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8554"
+   name=""
+   committed-date="2010-04-21T07:25:15.289807Z"
+   url="http://www.mpa-garching.mpg.de/svn/cosmo-group/P-Gadget3/ImfLib"
+   last-author="kdolag"
+   kind="dir"
+   uuid="019ef673-9300-0410-806d-f16013bd1951"
+   revision="9335"/>
+<entry
+   committed-rev="8554"
+   name="Kroupa_1993.IMF"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-04-21T07:25:15.289807Z"
+   checksum="ee8f5c25741a41646ce2d1b6e880f00b"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8554"
+   name="AY.IMF"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-04-21T07:25:15.289807Z"
+   checksum="bca5af224c4949c0579fb55d7863ab51"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8198"
+   name="libimf.c"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-03-23T16:17:00.643928Z"
+   checksum="a10b61c90d96f49cd985d97148f5a3f1"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8198"
+   name="libimf_vars.h"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-03-23T16:17:00.643928Z"
+   checksum="292e3f86a9bb878b3319d26ddb62e7d8"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8198"
+   name="Kroupa_2001_limited.IMF"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-03-23T16:17:00.643928Z"
+   checksum="d4e88bf6d1ae858975515e26ae9fb737"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8198"
+   name="Chabrier.IMF"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-03-23T16:17:00.643928Z"
+   checksum="78563cb3b24ad9e7611aa843c79e9025"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8554"
+   name="Salpeter.IMF"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-04-21T07:25:15.289807Z"
+   checksum="8a4a2b4489040d0251140a88d1952086"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8198"
+   name="Kroupa_2001.IMF"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-03-23T16:17:00.643928Z"
+   checksum="40e4e9ccd83ff59438ae3ba8e0e93b0e"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8198"
+   name="Makefile"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-03-23T16:17:00.643928Z"
+   checksum="19ec6a922fd1451cd6676faafec8f702"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8198"
+   name="normalizeimf.c"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-03-23T16:17:00.643928Z"
+   checksum="a8420c4bc8ad5c35a93e88dc9d5e7cbf"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8198"
+   name="libimf_vars.c"
+   text-time="2010-07-06T16:30:29.000000Z"
+   committed-date="2010-03-23T16:17:00.643928Z"
+   checksum="3ca505018785798f235f9520854fd1c3"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+</wc-entries>

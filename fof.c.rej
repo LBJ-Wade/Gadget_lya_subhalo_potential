@@ -1,0 +1,29 @@
+***************
+*** 1809,1821 ****
+              }
+          }
+  
+-       MPI_Allreduce(&npleft, &ntot, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD);
+        if(ntot > 0)
+          {
+            iter++;
+            if(iter > 0 && ThisTask == 0)
+              {
+-               printf("fof-nearest iteration %d: need to repeat for %d particles.\n", iter, ntot);
+                fflush(stdout);
+              }
+  
+--- 1816,1828 ----
+              }
+          }
+  
++       sumup_large_ints(1, &npleft, &ntot);
+        if(ntot > 0)
+          {
+            iter++;
+            if(iter > 0 && ThisTask == 0)
+              {
++               printf("fof-nearest iteration %d: need to repeat for %010ld particles.\n", iter, ntot);
+                fflush(stdout);
+              }
+  

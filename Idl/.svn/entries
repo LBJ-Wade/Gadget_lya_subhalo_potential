@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8024"
+   name=""
+   committed-date="2010-03-16T09:24:44.090014Z"
+   url="http://www.mpa-garching.mpg.de/svn/cosmo-group/P-Gadget3/Idl"
+   last-author="wadepuhl"
+   kind="dir"
+   uuid="019ef673-9300-0410-806d-f16013bd1951"
+   revision="9335"/>
+<entry
+   committed-rev="656"
+   name="rtime.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2003-10-15T06:31:35.000000Z"
+   checksum="643df3d2ed1c000f09d8723b4f3898a3"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="8024"
+   name="ReadCpu.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2010-03-16T09:24:44.090014Z"
+   checksum="521d1699878ca9d9d080faeccb4aef5a"
+   last-author="wadepuhl"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="5672"
+   name="PlotCorrel.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2009-01-11T21:17:07.643273Z"
+   checksum="81ebb0c9a6e7caced3ce9112aeab9308"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="6302"
+   name="readnew.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2009-08-11T10:36:19.765129Z"
+   checksum="0fcc2954842a15b5df0ab25bcc1321e0"
+   last-author="vogelsma"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="6303"
+   name="readnew_recent.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2009-08-11T11:04:57.409095Z"
+   checksum="2f19ecd04f7831b5433bec40d9701205"
+   last-author="vogelsma"
+   kind="file"
+   prop-time="2010-07-06T16:30:29.000000Z"/>
+<entry
+   committed-rev="4676"
+   name="pickcolorname.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2008-05-09T07:10:21.507370Z"
+   checksum="3bf624ecd0c32070d7a8a8ba562d4af6"
+   last-author="wadepuhl"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="1500"
+   name="myname.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2005-01-10T08:09:43.000000Z"
+   checksum="ff4d882e533966344a039eb2eee7e829"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="1134"
+   name="plot_bh.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2004-05-11T16:28:06.000000Z"
+   checksum="936cf78583dc6d38f2c1324dca23f127"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="1133"
+   name="plot_sfr.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2004-05-11T12:42:17.000000Z"
+   checksum="3df1dbb6374276ae0deb4edea23ee78f"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="1499"
+   name="is_def.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2005-01-10T08:09:02.000000Z"
+   checksum="0ad07423311107d90aba7dc6e8185286"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="4676"
+   name="error_message.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2008-05-09T07:10:21.507370Z"
+   checksum="867800efb08aba98198fc61e9b4cc2ac"
+   last-author="wadepuhl"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="1501"
+   name="readmatrix.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2005-01-10T08:10:19.000000Z"
+   checksum="6de6d064896e827da32c01fcd01b42c5"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="3736"
+   name="ReadMulti_xyz.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2007-05-06T19:11:40.877834Z"
+   checksum="06d4a2f67227624cb48f981f8161d765"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="1502"
+   name="get_halo_pos.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2005-01-10T08:23:28.000000Z"
+   checksum="9afce3664a817e7f33cffda17653e801"
+   last-author="kdolag"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="1515"
+   name="PlotTemp.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2005-01-24T11:17:33.000000Z"
+   checksum="5f731c8489eec8a2dacd0e8bbb1b84a6"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="6227"
+   name="PlotPowerSpec.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2009-07-08T08:53:09.523075Z"
+   checksum="808848713cdebbef6bb43a79aebb4603"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="2580"
+   name="readit.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2006-05-28T09:33:34.119681Z"
+   checksum="f7713bfac35cd937039a2b5060525ea4"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="4676"
+   name="fsc_color.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2008-05-09T07:10:21.507370Z"
+   checksum="6f55cd302efc2dc574726c17c5297d39"
+   last-author="wadepuhl"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+<entry
+   committed-rev="1161"
+   name="SeedGlass.pro"
+   text-time="2010-07-06T16:30:30.000000Z"
+   committed-date="2004-05-22T17:40:14.000000Z"
+   checksum="4455f79857e7125fa70346aa0593239d"
+   last-author="volker"
+   kind="file"
+   prop-time="2010-07-06T16:30:30.000000Z"/>
+</wc-entries>
