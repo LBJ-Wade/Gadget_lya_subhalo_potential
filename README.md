@@ -1,6 +1,6 @@
 # Gadget lyman alpha subhalo potential
 
-Lyman alpha and subhalo potential output adapted from P-Gadget3 including subhalo finder (subfinder).
+Lyman alpha and subhalo potential output reproduced from P-Gadget3 including subhalo finder (subfinder).
 
 Many more options can be found in `Makefile`.
 
