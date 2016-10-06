@@ -1,0 +1,191 @@
+%  Relevant files
+
+InitCondFile  		../ics/ics
+OutputDir               .
+
+EnergyFile        energy.txt
+InfoFile          info.txt
+TimingsFile       timings.txt
+CpuFile           cpu.txt
+
+SnapshotFileBase  snap
+
+RestartFile       restart
+
+
+
+% CPU-time limit
+
+TimeLimitCPU      3600000
+ResubmitOn        0
+ResubmitCommand   /home/vspringe/autosubmit
+
+
+% Code options
+
+ICFormat              1
+SnapFormat            1
+
+ComovingIntegrationOn 1
+
+NumFilesPerSnapshot       512
+NumFilesWrittenInParallel 8
+
+CoolingOn       0
+StarformationOn 0
+ 
+%  Characteristics of run
+
+TimeBegin           0.00625    % z=159
+TimeMax	            1.0     % end at z=0.0
+
+Omega0	              0.3   % total matter density
+OmegaLambda           0.7
+
+OmegaBaryon           0.0462
+HubbleParam           0.7     ; only needed for cooling
+
+BoxSize                1000000.
+PeriodicBoundariesOn   1
+
+
+% Softening lengths
+
+MinGasHsmlFractional     0.1  % minimum gas smoothing in terms of the gravitational softening length
+
+SofteningGas       20.0   %this seems to be the hires gas
+SofteningHalo      20.0   %this seems to be the hires dm
+SofteningDisk      20.0    %this seems to be the lowres dm
+SofteningBulge     20.0           
+SofteningStars     20.0
+SofteningBndry     20.0        % this will be the black hole particles
+
+SofteningGasMaxPhys       50.0
+SofteningHaloMaxPhys      50.0
+SofteningDiskMaxPhys      50.0
+SofteningBulgeMaxPhys     50.0           
+SofteningStarsMaxPhys     50.0
+SofteningBndryMaxPhys     50.0    
+
+
+MaxMemSize    2000
+
+
+% Output frequency
+
+OutputListOn        1
+OutputListFilename  outputs.txt
+
+TimeBetSnapshot        1.1
+TimeOfFirstSnapshot    0.1
+ 
+CpuTimeBetRestartFile  10800  % every 0.5 hrs 
+
+TimeBetStatistics      0.5
+
+MaxRMSDisplacementFac  0.25
+
+% Accuracy of time integration
+
+TypeOfTimestepCriterion 0   
+	                    
+ErrTolIntAccuracy       0.05  
+
+
+MaxSizeTimestep        0.05
+MinSizeTimestep        1.0e-7
+
+
+% Tree algorithm and force accuracy
+
+ErrTolTheta             0.4
+
+TypeOfOpeningCriterion  1
+ErrTolForceAcc          0.005
+
+
+
+TreeDomainUpdateFrequency    0.1
+
+
+%  Parameters of SPH
+
+DesNumNgb           33
+MaxNumNgbDeviation  2
+
+ArtBulkViscConst    1.0
+
+InitGasTemp         145.0  % initial gas temperature in K, only used if not given in IC file
+
+% Note: IGM temperature stays coupled to CMB temperature until
+% thermalization redshift: z_t = 750 * (Omega_b * h^2) ~ 150
+
+
+MinGasTemp          5.0    
+CourantFac          0.15
+
+
+% Further code parameters
+
+ErrTolThetaSubfind             0.4
+DesLinkNgb  20
+
+
+
+PartAllocFactor       2.1  
+%TreeAllocFactor       0.75
+
+BufferSize              100
+
+
+
+% System of units
+
+UnitLength_in_cm         3.085678e21        ;  1.0 kpc
+UnitMass_in_g            1.989e43           ;  1.0e10 solar masses
+UnitVelocity_in_cm_per_s 1e5                ;  1 km/sec
+GravityConstantInternal  0
+
+
+
+
+
+
+
+% Quantities for star formation and feedback
+
+
+%CritPhysDensity     0       %  critical physical density for star formation in                             
+                            %  hydrogen number density in cm^(-3)
+
+%MaxSfrTimescale     1.5     % in internal time units
+
+
+%CritOverDensity      57.7    %  overdensity threshold value
+ 
+%TempSupernova        1.0e8   %  in Kelvin
+ 
+%TempClouds           1000.0   %  in Kelvin
+%FactorSN             0.1
+%FactorEVP            1000.0
+
+
+
+%WindEfficiency                     2
+%WindFreeTravelLength               20
+%WindEnergyFraction                 1.0
+%WindFreeTravelDensFac              0.1
+
+%BH stuff:
+%BlackHoleFeedbackFactor            0.05
+%SeedBlackHoleMass                  5e-05
+%BlackHoleAccretionFactor           100
+%BlackHoleNgbFactor                 2.0
+%BlackHoleEddingtonFactor           1.0
+%MinFoFMassForNewSeed               5
+%TimeBetBlackHoleSearch             1.05
+
+%BlackHoleActiveTime                0.05
+%massDMpart                         0.0000 %hopefully not used
+%massDMpart                        0.00241672 %was value for D6
+%FactorForSofterEQS                 1.0
